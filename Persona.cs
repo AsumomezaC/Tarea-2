@@ -5,7 +5,7 @@ class Persona{
   public Casa casa;
   public Persona(){
     this.nombre = "Juan";
-    this.casa = new Casa(50);
+    this.casa = new Casa(150);
   }
   public Persona(string name, Casa casa){
     this.nombre = name;
